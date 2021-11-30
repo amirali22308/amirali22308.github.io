@@ -8,4 +8,5 @@ function on_load(){
         var newUrl = "not_loged_in.html";
         window.location.href = newUrl;
     }
+    localStorage.setItem("loged",0);
 }
