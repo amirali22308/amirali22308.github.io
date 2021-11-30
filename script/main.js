@@ -4,6 +4,7 @@ function log_in(){
 }
 function on_load(){
     var loged = localStorage.getItem("loged");
+    alert(loged);
     if (loged != 1){
         var newUrl = "not_loged_in.html";
         window.location.href = newUrl;
