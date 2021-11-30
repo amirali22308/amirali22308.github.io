@@ -1,0 +1,25 @@
+@import url('https://v1.fontapi.ir/css/Lalezar');
+@import url('https://v1.fontapi.ir/css/Vazir');
+@import url('https://v1.fontapi.ir/css/Sahel');
+/*fonts*/
+body *{
+    direction: rtl;
+    font-family: vazir;
+}
+/*
+div.links{
+    display:block;
+    background-color: rgb(27, 27, 27);
+    font-family:fantasy;
+    color: rgb(255, 255, 255);
+    padding: 2%;
+    flex-direction: row;
+    align-content: left;
+}
+a{
+    background-color: rgba(255, 255, 255, 0.767);
+    margin: 5% 5% 5% 0%;
+    padding: 1%;
+    border-radius: 5%;
+    color: rgb(64, 53, 78);
+}*/
