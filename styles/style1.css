@@ -9,22 +9,12 @@ body {
     direction: rtl;
 }
 div.hotbar{
+    align-items: center;
     direction: rtl;
-    margin:  0%;
     padding: 2% 0%;
     display:block;
-    font-family:fantasy;
     color: rgb(255, 255, 255);
-    flex-direction: row;
-    align-content: left;
     user-select: none;
-}
-a{
-    font-size: 200%;
-    font-family: Vazir;
-    margin: 0%;
-    display: inline;
-    color: rgb(208, 205, 212);
 }
 hr{
     height: 5px;
@@ -38,13 +28,26 @@ p{
     font-family: Vazir;
 }
 button.enter{
-    margin:  1% 0%;
     font-size: 200%;
-    align-self: center;
-    width: 20%;
     background-color: rgb(48, 252, 96);
     font-family: Vazir;
+    width: 20%;
 }
 img{
     border-radius: 100%;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200%;
+    border: 3% solid ;
+    border: none;
+}
+input{
+    background-color: rgb(208, 205, 212);
+    text-align: center;
+    font-family: Vazir;
+    font-size: 150%;
+    color: black;
 }

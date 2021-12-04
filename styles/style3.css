@@ -8,27 +8,25 @@ body {
     padding: 0%;
     direction: rtl;
 }
-hr{
-    height: 5px;
-    width: 100%;
-    background-color: rgb(48, 252, 96);
-    border: none;
-    flex-direction:initial;
-}
 p{
     text-align: center;  
     font-size: 200%;
     font-family: Vazir;
-    color: rgb(141, 184, 143);
+    color: rgb(48, 252, 96);
 }
-div.hotbar{
+div{
     display: flex;
 }
-a.hotbar{
+div.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200%;
+    border: 3% solid ;
+    border: none;
+}
+a{
     text-decoration: none;
     user-select: none;
-    font-size: 200%;
-    margin: 2% 2%;
-    flex-direction: row;
-    font-family: Vazir;
+    color: rgb(159, 250, 180);
 }
